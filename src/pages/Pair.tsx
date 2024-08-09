@@ -2,7 +2,7 @@ import { useParams } from "react-router-dom";
 
 export default function Pair() {
   const { pair } = useParams();
-  const pairList = pair?.split("-");
+  const pairList = pair?.split("-") || ["TON", "USDT"];
   const pair1 = pairList[0];
   const pair2 = pairList[1];
 
