@@ -8,7 +8,7 @@ export default function Home() {
   }, []);
   return (
     <>
-      <div className=" md:px-20 lg:px-32 xl:px-96">
+      <div className=" md:px-[80px] lg:px-[128px] xl:px-[384px]">
         <div className="bg-blue-950/30 rounded-[30px] w-full  h-fit text-white  px-5 py-10">
           <p className="text-3xl font-bold">Pools</p>
 
