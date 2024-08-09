@@ -1,6 +1,6 @@
 export default function Navbar() {
   return (
-    <div className="text-white flex justify-between items-center px-5 md:px-[80px] lg:px-[128px] xl:px-[384px] py-10 ">
+    <div className="text-white flex justify-between items-center px-5 md:px-10 lg:px-16 xl:px-48 py-10 ">
       <div className="text-2xl">
         <a href="/">Yield</a>
       </div>

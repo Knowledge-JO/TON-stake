@@ -7,7 +7,7 @@ export default function Pair() {
   const pair2 = pairList[1];
 
   return (
-    <div className=" md:px-[80px] lg:px-[128px] xl:px-[384px]">
+    <div className="md:px-10 lg:px-16 xl:px-48">
       <div className="bg-blue-950/30 rounded-[30px] w-full  h-fit text-white  px-5 sm:px-10 py-10">
         <div>
           <div className="flex justify-center">
