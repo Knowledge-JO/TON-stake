@@ -35,12 +35,12 @@ export default function Pair() {
 
               <div className="border-t border-slate-600 mt-5 py-5 px-5">
                 <p className="text-gray-400 text-xl ">Staked</p>
-                <p className="text-3xl font-thin">500 TON</p>
+                <p className="text-2xl font-thin">500 TON</p>
               </div>
 
               <div className="border-y border-slate-600  py-5 px-5">
                 <p className="text-gray-400 text-xl ">Claimable Reward</p>
-                <p className="text-3xl font-thin">5000 {pair2}</p>
+                <p className="text-2xl font-thin">5000 {pair2}</p>
               </div>
 
               <div className="px-5 pt-5 ">
@@ -57,12 +57,12 @@ export default function Pair() {
           <div className="w-full lg:w-[50%]">
             <div className="border rounded-[30px] px-5 py-8 border-slate-600 mb-5 h-36">
               <p className="text-gray-400 text-xl ">Pool Value</p>
-              <p className="text-3xl font-thin">50000 TON</p>
+              <p className="text-2xl font-thin">50000 TON</p>
             </div>
 
             <div className="border rounded-[30px] px-5 py-8 border-slate-600 mb-5 h-36">
               <p className="text-gray-400 text-xl ">APR</p>
-              <p className="text-3xl font-thin">30%</p>
+              <p className="text-2xl font-thin">30%</p>
             </div>
           </div>
         </div>
