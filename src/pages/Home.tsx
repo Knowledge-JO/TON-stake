@@ -1,4 +1,11 @@
+import { useEffect, useState } from "react";
+
 export default function Home() {
+  const [baseURL, setBaseURL] = useState("");
+  useEffect(() => {
+    const base = location.origin;
+    setBaseURL(base);
+  }, []);
   return (
     <>
       <div className=" md:px-20 lg:px-32 xl:px-96">
@@ -18,9 +25,7 @@ export default function Home() {
               <tbody>
                 <tr
                   className="cursor-pointer"
-                  onClick={() =>
-                    open("http://localhost:5173/pool/TON-USDT", "_parent")
-                  }
+                  onClick={() => open(`${baseURL}/pool/TON-USDT`, "_parent")}
                 >
                   <td className="pb-8 text-sm sm:text-lg">
                     <div className=" relative flex items-center">
@@ -42,9 +47,7 @@ export default function Home() {
                 </tr>
                 <tr
                   className="cursor-pointer"
-                  onClick={() =>
-                    open("http://localhost:5173/pool/TON-SCALE", "_parent")
-                  }
+                  onClick={() => open(`${baseURL}/pool/TON-SCALE`, "_parent")}
                 >
                   <td className="pb-8 text-sm sm:text-lg">
                     <div className=" relative flex items-center">
@@ -66,9 +69,7 @@ export default function Home() {
                 </tr>
                 <tr
                   className="cursor-pointer"
-                  onClick={() =>
-                    open("http://localhost:5173/pool/TON-NOT", "_parent")
-                  }
+                  onClick={() => open(`${baseURL}/pool/TON-NOT`, "_parent")}
                 >
                   <td className=" text-sm sm:text-lg">
                     <div className=" relative flex items-center">
